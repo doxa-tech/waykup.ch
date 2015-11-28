@@ -14,7 +14,7 @@
 
 @font-face {
 	font-family: 'gentleman-500';
-	src: url(../../fonts/gentleman-500-regular-webfont.woff),
-			 url(../../fonts/gentleman-500-regular-webfont.woff2),
-	     url(../../fonts/gentleman-500-regular-webfont.ttf);
+	src: url(../../fonts/gentleman-500-book-webfont.woff),
+			 url(../../fonts/gentleman-500-book-webfont.woff2),
+	     url(../../fonts/gentleman-500-book-webfont.ttf);
 }
