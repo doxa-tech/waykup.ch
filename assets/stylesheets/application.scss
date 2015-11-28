@@ -1,7 +1,6 @@
-// compileCompressed: _application.min.css
-
 @import url(base/_global.css);
 @import url(base/normalize.css);
+@import url(base/font.css);
 
 @import url(layout/_body.css);
 @import url(layout/_sections.css);
@@ -18,7 +17,7 @@
 
 body, html {
   height: 100%;
-  font-family: 'Open sans';
+  font-family: 'gentleman-500';
 }
 
 body {
