@@ -1,1 +1,15 @@
 @import url(base/_global.css);@import url(base/normalize.css);@import url(base/font.css);@import url(layout/_sections.css);@import url(vendors/metroline.css);.activities{display:flex;justify-content:space-around;padding:30px 0}.activities .activity{border-radius:50%;width:150px;height:150px;flex-flow:column;padding:20px;text-align:center;font-weight:100;color:#fff;position:relative;transition:0.5s;border:2px solid #fff}.activities .activity p{position:absolute;top:50%;bottom:auto;left:50%;right:auto;transform:translateX(-50%) translateY(-50%)}.activities .activity:hover{background:#47467c}
+.vision{
+  display: flex;
+  border-radius:50%;
+  width:170px;
+  height:170px;
+  flex-flow:column;
+  padding:20px;
+  text-align:center;
+  justify-content: space-around;
+  font-weight:100;
+  color black;
+  transition:0.5s;
+  border:2px solid black;
+}
