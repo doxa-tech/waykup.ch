@@ -9,7 +9,7 @@
   text-align:center;
   justify-content: space-around;
   font-weight:100;
-  color black;
+  color : black;
   transition:0.5s;
   border:2px solid black;
 }
