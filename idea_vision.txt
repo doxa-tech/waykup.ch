@@ -1,0 +1,3 @@
+idées :
+- mettre opacité diff
+- Changer la font
