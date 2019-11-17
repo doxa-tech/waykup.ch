@@ -23,3 +23,21 @@
   transition:0.5s;
   border:2px solid black;
 }
+input {
+  color: black;
+  border: 1px solid #47467c;
+  height: 30px;
+  -webkit-border-radius: 2px;
+  padding: 2px;
+}
+#submit{
+  color : white;
+  background-color: #47467c;
+  height: 30px;
+  width: 80px;
+  border: 1px solid black;
+  -webkit-border-radius: 2px;
+}
+#logo_pasta{
+  border-radius: 50%;
+}
