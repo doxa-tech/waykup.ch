@@ -28,6 +28,9 @@ input {
   border: 1px solid #47467c;
   height: 30px;
   -webkit-border-radius: 2px;
+  -moz-border.radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
   padding: 2px;
 }
 #submit{
@@ -37,7 +40,26 @@ input {
   width: 80px;
   border: 1px solid black;
   -webkit-border-radius: 2px;
+  -moz-border.radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
 }
-#logo_pasta{
+.logo_pasta{
   border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.cont:hover .logo_pasta{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.eventLink{
+  color : #547E36;
+}
+.eventLink:hover{
+  font-size: 1.2em;
 }
