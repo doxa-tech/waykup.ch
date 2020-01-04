@@ -3,12 +3,35 @@
 @import url(base/font.css);
 @import url(layout/sections.css);
 @import url(vendors/metroline.css);
-.activities{display:flex;justify-content:space-around;padding:30px 0}.activities
-.activity{border-radius:50%;width:150px;height:150px;flex-flow:column;padding:20px;text-align:center;font-weight:100;color:#fff;position:relative;transition:0.5s;border:2px solid #fff}
-.activities
-.activity p{position:absolute;top:50%;bottom:auto;left:50%;right:auto;transform:translateX(-50%) translateY(-50%)}
-.activities
-.activity:hover{background:#47467c;}
+.activities{
+  display:flex;
+  justify-content:space-around;
+  padding:30px 0
+}
+.activities .activity{
+  border-radius:50%;
+  width:150px;
+  height:150px;
+  flex-flow:column;
+  padding:20px;
+  text-align:center;
+  font-weight:100;
+  color:#fff;
+  position:relative;
+  transition:0.5s;
+  border:2px solid #fff
+}
+.activities .activity p{
+  position:absolute;
+  top:50%;
+  bottom:auto;
+  left:50%;
+  right:auto;
+  transform:translateX(-50%) translateY(-50%)
+}
+.activities .activity:hover{
+  background:#47467c;
+}
 .vision{
   display: flex;
   border-radius:50%;
@@ -33,36 +56,3 @@ input {
   border-radius: 2px;
   padding: 2px;
 }
-#submit{
-  color : white;
-  background-color: #47467c;
-  height: 30px;
-  width: 80px;
-  border: 1px solid #47467c;
-  -webkit-border-radius: 2px;
-  -moz-border.radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-}
-/*.logo_pasta{
-  border-radius: 50%;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.cont:hover .logo_pasta{
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.eventLink{
-  color : #547E36;
-}
-.eventLinkEvent{
-  color: white;
-}
-.eventLink:hover, .eventLinkEvent:hover{
-  font-size: 1.2em;
-}*/
