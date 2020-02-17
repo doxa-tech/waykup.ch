@@ -96,21 +96,15 @@ section .container::after {
 	content: '';
 	display: table;
 }
-section.contact {
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 100%;
-	position: relative;
-	z-index: 1;
-}
 
 /*
  * Responsiveness
  */
 @media (max-width: 768px)
 {
+    #scrollbar {
+      display: none;
+    }
     * {
       line-height: inherit !important;
     }
@@ -120,9 +114,5 @@ section.contact {
     }
     .vision, .activity {
       margin: 15px;
-	}
-	.footer {
-		flex-direction: column;
-		justify-content: center;
-	}
+    }
 }
