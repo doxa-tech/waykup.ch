@@ -1,0 +1,111 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Waykup - groupe de jeunes EEBulle</title>
+    <meta name="description" content="Waykup youth group">
+    <meta name="author" content="EEBulle">
+
+    <link rel="stylesheet" href="assets/stylesheets/application.css">
+    <link rel="stylesheet" href="assets/stylesheets/component.css">
+
+    <!-- Favicon stuff -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Mobile compatibility -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-38967567-7', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body>
+
+    <nav id="navbar">
+      <div class="nav">
+        <a href="index.html#Waykup">Accueil</a>
+        <a href="index.html#Vision">Mission</a>
+        <a href="index.html#Programme">Programme</a>
+        <a href="boutique.html">Boutique</a>
+        <a href="event.html">Event</a>
+        <a href="index.html#Contact">Contact</a>
+      </div>
+    </nav>
+    <section id="Event" class="fixed f4">
+      <h1>Nos prochains événements</h1>
+    </section>
+
+      <section id="interGJ" class="scrolling s3">
+        <div class="container">
+          <h2>Soirée inter groupes de jeunes</h2>
+          <p>
+            Le vendredi 28 février 2020, nous participerons à la soirée inter groupes de jeunes organisée par City Youth.</br>
+            Ben Giraud de l'église Momentum (Bordeaux) sera l'orateur de la soirée. Il y aura aussi une démonstration de football street avec le champion suisse de la discipline : Marco Jonin. Une super after avec plein de surprises est prévue.</br>
+            Bref, une soirée à ne pas manquer !</br>
+            La soirée commencera à 20h à Vevey, nous allons donc partir de Bulle vers 19h. Les transports seront organisés depuis Bulle. Plus d'informations suivront.</br>
+            Lien vers leur page Instagram : <a href="https://www.instagram.com/cityyouth_riviera/">@cityyouth_riviera</a>
+          </p>
+          <center>
+            <a href="https://citylife.ch/"><img class="logoEvent" src="assets/images/logo/cityLife.png"/></a>
+          </center>
+          </div>
+      </section>
+
+      <section id="RJ" class="scrolling cd-color-1">
+        <div class="container">
+          <h2>La RJ</h2>
+          <p>
+            Cette année (comme toutes les autres d'ailleurs) nous participerons à la RJ du 1 au 3 mai 2020 !</br>
+            Pour prendre tes billets, cela se passe <a href="https://rencontredejeunesse.ch/2020#registration">ici</a>.</br>
+            Plus d'informations concernant l'organisation côté Waykup suivront.
+          </p>
+          <center>
+            <a href="https://rencontredejeunesse.ch/home"><img class="logoEvent" src="assets/images/logo/RJ.png"/></a>
+          </center>
+        </div>
+      </section>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
