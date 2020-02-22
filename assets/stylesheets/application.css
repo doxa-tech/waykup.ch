@@ -57,7 +57,6 @@ nav{
 	width: 90%;
   height: 50px;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: stretch;
 }
 .nav a{

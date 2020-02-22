@@ -109,8 +109,7 @@ section.contact {
 /*
  * Responsiveness
  */
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
     * {
       line-height: inherit !important;
     }
@@ -125,4 +124,12 @@ section.contact {
 		flex-direction: column;
 		justify-content: center;
 	}
+	.nav {
+		height: 100px;
+		flex-wrap: wrap;
+		justify-content: center;
+	  }
+	  nav {
+		height: 100px;
+	  }
 }
