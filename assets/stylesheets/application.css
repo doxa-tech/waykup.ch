@@ -1,8 +1,7 @@
 @import url(base/global.css);
 @import url(base/normalize.css);
-@import url(base/font.css);
 @import url(layout/sections.css);
-@import url(vendors/metroline.css);
+
 .activities{
   display:flex;
   justify-content:space-around;
