@@ -142,7 +142,7 @@ form {
   margin: 0 auto;
 	max-width: 768px;
   width: 90%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .contactInfo {
   display: flex;
