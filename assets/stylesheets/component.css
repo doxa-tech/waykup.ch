@@ -123,6 +123,13 @@ section.contact {
 	.footer {
 		flex-direction: column;
 		justify-content: center;
+		align-items: stretch;
+	}
+	.contact iframe {
+		display: none;
+	}
+	.contactInfo {
+		margin-top: 6em;
 	}
 	.nav {
 		height: 100px;
