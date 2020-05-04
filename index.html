@@ -2,16 +2,6 @@
 
 <html>
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159516284-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-159516284-1');
-    </script>
-
     <meta charset="utf-8">
 
     <title>Waykup - groupe de jeunes EEBulle</title>
@@ -19,7 +9,7 @@
     <meta name="author" content="EEBulle">
 
     <link rel="stylesheet" href="assets/stylesheets/application.css">
-    <link rel="stylesheet" href="assets/stylesheets/component.css">
+    <script type="text/javascript" src="assets/javascripts/application.js"></script>
 
     <!-- Favicon stuff -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
@@ -189,21 +179,12 @@
       <iframe class="map" width="100%" height="40%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2083.8713239602675!2d7.06776166564967!3d46.62337367358031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x196a5299ace58a5e!2sEglise+%C3%A9vang%C3%A9lique+de+Bulle!5e0!3m2!1sen!2sch!4v1448208148855" allowfullscreen></iframe>
     </section>
 
-    <!-- Sticky nav JS script -->
+    <!-- Executing some JS scripts -->
     <script>
-      window.onscroll = function() {myFunction()};
-      
-      var navbar = document.getElementById("navbar");
-      var sticky = navbar.offsetTop;
-      
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      }
+      stickyNav();
+      googleAnalytics();
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159516284-1"></script>
 
   </body>
 </html>

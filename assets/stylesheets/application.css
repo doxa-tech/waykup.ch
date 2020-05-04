@@ -1,6 +1,7 @@
 @import url(base/global.css);
 @import url(base/normalize.css);
 @import url(layout/sections.css);
+@import url(component.css);
 
 .activities{
   display:flex;
