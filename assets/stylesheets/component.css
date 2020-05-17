@@ -131,12 +131,9 @@ section.contact {
 	.contactInfo {
 		margin-top: 6em;
 	}
-	.nav {
-		height: 100px;
-		flex-wrap: wrap;
-		justify-content: center;
-	  }
-	  nav {
-		height: 100px;
-	  }
+	#navbar {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+	}
 }

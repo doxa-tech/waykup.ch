@@ -20,6 +20,8 @@
 
     <link rel="stylesheet" href="assets/stylesheets/application.css">
     <link rel="stylesheet" href="assets/stylesheets/component.css">
+    <script type="text/javascript" src="assets/javascripts/application.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <!-- Favicon stuff -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-touch-icon-57x57.png">
@@ -50,6 +52,10 @@
   <body>
 
     <nav id="navbar">
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
       <div class="nav">
         <a href="index.html#Waykup">Accueil</a>
         <a href="index.html#Vision">Mission</a>
@@ -72,18 +78,8 @@
     </section>
 
     <script>
-      window.onscroll = function() {myFunction()};
-      
-      var navbar = document.getElementById("navbar");
-      var sticky = navbar.offsetTop;
-      
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      }
+      stickyNav();
+      googleAnalytics();
     </script>
   </body>
 </html>

@@ -81,7 +81,52 @@ nav{
   width: 100%;
   z-index: 3;
 }
-
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 768px){
+  .checkbtn{
+    display: block;
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+  .nav{
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background: #d52121;
+    top: 50px;
+    left: -100%;
+    text-align: column;
+    transition: all .5s;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 0 0 rgba(0,0,0,0.5);
+  }
+  .nav a {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    transition: color 0.05s ease-out 0.05s;
+  }
+  .nav a:hover {
+    color: #47467c;
+  }
+  #check:checked ~ .nav{
+  left: 0;
+  }
+}
 /* CSS for the contact form */
 input{
   color: black;
