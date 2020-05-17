@@ -152,6 +152,7 @@ textarea{
   padding: 3px;
   margin: 5px;
   outline: none;
+  resize: none;
 }
 #submit{
   color : white;
