@@ -171,8 +171,14 @@ form {
   flex-direction: column;
   justify-content: flex-start;
 }
-
-/*CSS for the footer*/
+#subscribing input{
+  margin: 0px;
+  margin-bottom: 8px;
+}
+#subscribing textarea{
+  margin: 0px;
+  margin-bottom: 8px;
+}
 .title {
   margin: 0 auto;
   max-width: 768px;

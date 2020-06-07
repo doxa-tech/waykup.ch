@@ -70,10 +70,36 @@
       <h1>Nos prochains événements</h1>
     </section>
 
-    <section id="RJ" class="scrolling cd cd-color-1">
+    <!--<section id="RJ" class="scrolling cd cd-color-1">
       <div class="container">
         <h2>Pas d'événements pour l'instant...</h2>
         <p>Nous te tiendrons au courant des événements auxquels nous participerons, mais pour l'instant, il n'y en a pas...</p>
+      </div>
+    </section>-->
+
+    <section id="weekend" class="scrolling cd cd-color-1">
+      <div class="container">
+        <h2>Weekend Waykup</h2>
+        <p>
+          Merci de remplir le formulaire ci-dessous pour s'inscrire à notre weekend :
+        </p>
+        <form id="subscribing" method="POST" action="https://formspree.io/myyyndyk">
+          <input type="text" name="nom" id="nom" required="required" placeholder="Nom"/>
+          <input type="text" name="prénom" id="prénom" required="required" placeholder="Prénom"/>
+          <input type="email" name="email" id="email" required="required" placeholder="Email"/>
+          <input type="number" name="nbr" id="nbr" min="1" max="5" required="required" placeholder="Nombre de personne"/>
+          <p>As-tu toutes les affaires demandées ?</p>
+          <label class="label">Oui
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="label">Non
+            <input type="radio" name="radio" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+          <textarea type="text" name="commentaire" rows="5" cols="35" placeholder="Commentaire/ce qu'il me manque"></textarea>
+          <input id="submit" type="submit" value="Envoyer"/>
+        </form>
       </div>
     </section>
 
