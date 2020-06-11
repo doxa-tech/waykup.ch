@@ -1,54 +1,3 @@
-input{
-    color: black;
-    border: 1px solid #47467c;
-    height: 30px;
-    width: 250px;
-    -webkit-border-radius: 2px;
-    -moz-borderradius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-    padding: 2px;
-    margin: 5px;
-    outline: none;
-}
-textarea{
-    color: black;
-    border: 1px solid #47467c;
-    width: 300px;
-    -webkit-border-radius: 2px;
-    -moz-borderradius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-    padding: 3px;
-    margin: 5px;
-    outline: none;
-    resize: none;
-}
-#submit{
-    color : white;
-    background-color: #47467c;
-    height: 40px;
-    width: 90px;
-    border: 1px solid #47467c;
-    -webkit-border-radius: 2px;
-    -moz-borderradius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-    margin: 5px;
-}
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-#subscribing input{
-    margin: 0px;
-    margin-bottom: 8px;
-}
-#subscribing textarea{
-    margin: 0px;
-    margin-bottom: 8px;
-}
 .title {
     margin: 0 auto;
     max-width: 768px;
@@ -60,7 +9,6 @@ form {
 }
 .footer {
     display: flex;
-    flex-direction: row;
     margin: 0 auto;
     max-width: 768px;
     width: 90%;

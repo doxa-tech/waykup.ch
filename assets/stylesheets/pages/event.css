@@ -1,9 +1,11 @@
 .logoEvent{
-    border-radius: 50%;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    width: 410px;
+    height: 405;
+    margin-bottom: 10px;
 }
 .logoEvent:hover{
     -webkit-transform: scale(1.1);
@@ -13,4 +15,23 @@
 }
 center h2 {
     color : red;
+}
+.eventForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* subscribing event contact form */
+#subscribing textarea{
+    height: 90px;
+    width: 250px;
+}
+#subscribing #nbr {
+    width: 40px;
+}
+.aligneLabel {
+    display: flex;
+}
+.aligneLabel label {
+    margin-right: 5px;
 }

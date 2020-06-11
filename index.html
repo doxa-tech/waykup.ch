@@ -128,22 +128,10 @@
     <section id="Programme" class="scrolling cd-color-2 s2">
       <div class="container">
         <h2>Le programme</h2>
-        <p>Malgré cette période de crise, nos soirées continuent sur Discord. RDV tous les samedis soirs à 20h pour une soirée on line.</p>
-        <p>
-          Pour participer à nos soirées, il faut :</br>
-          - Télécharger l'application <a href="https://discordapp.com/download" target="_blank">Discord</a> disponible sur Android, IOS, Windows, Linux et Mac OS</br>
-          - Créer un compte Discord</br>
-          - Et enfin tu peux rejoindre le <a href="https://discord.gg/YXujRwq" target="_blank">serveur Discord</a> de Waykup.
-        </p>
-        <center>
-          <a href="https://discordapp.com/" target="_blank"><img class="logoEvent" id="discord" src="assets/images/logo/discord.png"/></a>
-        </center>
-        <!--<h3>Voici le programme de nos prochaines soirées :</h3>
-        <p>
+        <p>Nous avons repris les soirées en présentiel !</p>
           <center>
             <img src="assets/images/programs/debut2020V2.jpg">
           </center>
-        </p>-->
       </div> <!-- container -->
     </section> <!-- scrolling -->
 
@@ -167,11 +155,12 @@
       </div>
       <div class="footer">
         <div class="form">
-          <form method="post" action="https://formspree.io/myyyndyk">
-            <input type="text" name="nom" id="nom" required="required" placeholder="Nom"/>
-            <input type="text" name="prénom" id="prénom" required="required" placeholder="Prénom"/>
-            <input type="email" name="email" id="email" required="required" placeholder="Email"/>
-            <textarea type="text" name="message" rows="5" cols="35" placeholder="Message" required="required"></textarea>
+          <form id="contactForm" method="post" action="https://formspree.io/myyyndyk">
+            <input type="text" name="nom" id="nom" required="required" placeholder="Nom*"/>
+            <input type="text" name="prénom" id="prénom" required="required" placeholder="Prénom*"/>
+            <input type="email" name="email" id="email" required="required" placeholder="Email*"/>
+            <textarea type="text" name="message" rows="5" cols="35" placeholder="Message*" required="required"></textarea>
+            <p class="formComment">Les champs marqués d'une étoile (*) sont obligatoires.</p>
             <input id="submit" type="submit" value="Envoyer"/>
           </form>
         </div>

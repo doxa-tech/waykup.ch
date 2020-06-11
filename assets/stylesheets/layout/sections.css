@@ -58,35 +58,3 @@ section.contact {
 	position: relative;
 	z-index: 1;
 }
-
-/*
- * Responsiveness
- */
-@media (max-width: 768px) {
-    * {
-      line-height: inherit !important;
-    }
-    .activities {
-      flex-direction: column;
-      align-items: center;
-    }
-    .vision, .activity {
-      margin: 15px;
-	}
-	.footer {
-		flex-direction: column;
-		justify-content: center;
-		align-items: stretch;
-	}
-	.contact iframe {
-		display: none;
-	}
-	.contactInfo {
-		margin-top: 6em;
-	}
-	#navbar {
-		display: flex;
-		justify-content: start;
-		align-items: center;
-	}
-}
