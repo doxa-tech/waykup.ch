@@ -422,3 +422,54 @@ td,
 th {
   padding: 0;
 }
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body, html {
+ 	font-family: 'gentleman';
+ 	height: 100%;
+ }
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 2em;
+  word-break: break-word;
+  padding: 1em 0em;
+}
+
+p {
+  padding-bottom: 1em;
+  font-weight: 100;
+}
+
+img, iframe {
+	max-width: 100%;
+}
+
+h1.maintitle {
+  padding: 0;
+}
+p.subtitle {
+  color: white;
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+p {
+  padding-bottom:1em;
+  font-weight:100;
+}
+h3 {
+  text-align:center;
+}
+a {
+  color:#b4d7a8;
+  text-decoration:none;
+}
+body {
+  -webkit-font-smoothing:antialiased;
+}
