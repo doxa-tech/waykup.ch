@@ -29,6 +29,9 @@ center h2 {
 #subscribing #nbr {
     width: 40px;
 }
+#subscribing #submit {
+    cursor: not-allowed;
+}
 .aligneLabel {
     display: flex;
 }
