@@ -13,3 +13,22 @@
     -o-transform: scale(1.1);
     transform: scale(1.1);
 }
+.eventForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* subscribing event contact form */
+#subscribing textarea{
+    height: 90px;
+    width: 250px;
+}
+#subscribing #nbr {
+    width: 40px;
+}
+.aligneLabel {
+    display: flex;
+}
+.aligneLabel label {
+    margin-right: 5px;
+}

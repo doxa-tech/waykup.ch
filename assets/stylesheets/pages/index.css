@@ -38,3 +38,28 @@
     transition:0.5s;
     border:2px solid black;
 }
+button{
+    font-size: 1.4em;
+    background-color: #47467c;
+    height: 40px;
+    width: 120px;
+    -webkit-border-radius: 2px;
+    -moz-borderradius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    transition: all 0.12s ease;
+    border: none;
+    margin-left: 1%;
+}
+button:hover {
+    background-color: #5e5da3;
+}
+button a{
+    color: white;
+}
+#inscription{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
