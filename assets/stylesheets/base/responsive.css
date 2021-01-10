@@ -30,6 +30,12 @@
 		flex-direction: column;
 		justify-content: center;
 	}
+	#inscriptions {
+		margin-top: 50px;
+	}
+	#inscription_button {
+		padding: 5px;
+	}
 }
 @media (max-width: 1536px) {
 	.contact iframe {
