@@ -1,7 +1,7 @@
 function stickyNav() {
     window.onscroll = function() {myFunction()};
       
-    var navbar = document.getElementById("navbar");
+    var navbar = document.querySelector('.navbar');
     var sticky = navbar.offsetTop;
     
     function myFunction() {
@@ -18,4 +18,12 @@ function googleAnalytics() {
     gtag('js', new Date());
 
     gtag('config', 'UA-159516284-1');
+}
+document.addEventListener('DOMContentLoaded', nav);
+function nav(){
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.navbar');
+    burger.addEventListener('click', ()=>{
+        nav.classList.toggle('show')
+    })
 }
