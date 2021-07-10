@@ -59,10 +59,30 @@
       <h1>Nos prochains événements</h1>
     </section>
 
-    <section id="none" class="scrolling cd cd-color-1">
+    <section id="weekend" class="scrolling cd cd-color-1">
       <div class="container">
-        <h2>Pas d'événements pour l'instant...</h2>
-        <p>Nous te tiendrons au courant des événements auxquels nous participerons, mais pour l'instant, il n'y en a pas...</p>
+        <h2>Weekend Waykup</h2>
+        <p>
+          Merci de t'inscrire via le formulaire ci-dessous pour participer à notre superbe weekend Waykup qui se déroulera du 13 au 15 août 2021.
+          De plus amples informations seront disponibles sur notre groupe Whatsapp ainsi que sur cette page web.
+        </p>
+      
+        <div class="eventForm">
+          <form id="subscribing" method="POST" action="https://formspree.io/myyyndyk">
+            <input type="text" name="nom" id="nom" required="required" placeholder="Nom*"/>
+            <input type="text" name="prénom" id="prénom" required="required" placeholder="Prénom*"/>
+            <input type="email" name="email" id="email" required="required" placeholder="Email*"/>
+            <input type="tel" name="phone" id="phone" required="required" placeholder="N° de téléphone*"/>
+            <div class="aligneLabel">
+              <label for="nbr">Nombre de personne* : </label>
+              <input type="number" name="nbr" id="nbr" min="1" max="5" required="required" value="1" />
+            </div>
+            <textarea type="text" name="commentaire" rows="5" cols="35" placeholder="Commentaire"></textarea>
+            <p class="formComment">Les champs marqués d'une étoile (*) sont obligatoires.</p>
+            <input id="submit" type="submit" value="Envoyer"/>
+          </form>
+          <img class="logoEvent" src="assets/images/logo/weekendWaykup2021.jpeg">
+        </div>
       </div>
     </section>
 
