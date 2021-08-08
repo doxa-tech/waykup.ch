@@ -32,3 +32,6 @@
 .aligneLabel label {
     margin-right: 5px;
 }
+.description h3, p, ul{
+    text-align: left;
+}
