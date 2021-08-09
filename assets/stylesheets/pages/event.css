@@ -35,3 +35,6 @@
 .description h3, p, ul{
     text-align: left;
 }
+.description ul {
+    margin-left: 18px;
+}
