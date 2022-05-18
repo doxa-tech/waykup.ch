@@ -3,9 +3,9 @@
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    width: 410px;
-    height: 405;
     margin-bottom: 10px;
+    width: 40%;
+    height: 40%;
 }
 .logoEvent:hover{
     -webkit-transform: scale(1.1);
@@ -31,28 +31,4 @@
 }
 .aligneLabel label {
     margin-right: 5px;
-}
-.description h3, p, ul{
-    text-align: left;
-}
-.description ul {
-    margin-left: 18px;
-}
-.description button {
-    font-size: 1em;
-    color : white;
-    background-color: #47467c;
-    height: 2em;
-    width: 10em;
-    -webkit-border-radius: 2px;
-    -moz-borderradius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-    transition: all 0.12s ease;
-    margin: 0;
-    margin-bottom: 1em;
-}
-.description button:hover {
-    background-color: #5e5da3;
-    border-color: #5e5da3;
 }
