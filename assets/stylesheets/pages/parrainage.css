@@ -1,0 +1,9 @@
+.list {
+    list-style-type: none;
+}
+
+.jeunes {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+}
