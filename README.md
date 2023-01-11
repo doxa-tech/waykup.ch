@@ -1,3 +1,7 @@
+**The content has been moved to https://github.com/doxa-tech/bullenetwork-constellation**
+
+---
+
 Waykup website: https://waykup.ch
 
 ![waykup.ch deploy](https://github.com/doxa-tech/waykup.ch/workflows/waykup.ch%20deploy/badge.svg)
